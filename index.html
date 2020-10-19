@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
     <title>Eponym Mag</title>
+    <style>
+        .slider-navigation-previous{
+            margin-left:1rem;
+        }
+        .slider-navigation-next{
+            margin-right:1rem;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar has-shadow is-white container is-max-desktop">
@@ -45,13 +53,30 @@
                 </div>
                 <!-- <div class="hero-head"></div> -->
                 <div class="hero-body">
-                    <h1 class="title is-size-1 has-text-white">Welcome to Eponym</h1>
-                    <a href="issues.html" class="button is-primary">Browse Issues</a>
+                    <h1 class="title is-size-1-desktop is-size-4-mobile has-text-white">Welcome to Eponym</h1>
+                    <a href="issues.html" class="button is-small-mobile is-primary">Browse Issues</a>
                 </div>
                 <!-- <div class="hero-foot"></div> -->
             </section>
         </div>
-		<!-- End Hero Carousel -->
+        <!-- End Hero Carousel -->
+        
+        <section class="section">
+            <div class="container is-max-desktop">
+                <h1 class="title has-text-centered is-size-4">Issues</h1>
+                <div class="columns">
+                    <div class="column">
+                        <h2 class="subtitle">Column 1</h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="subtitle">Column 2</h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="subtitle">Column 3</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <script src="node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
     <script src="script.js"></script>
