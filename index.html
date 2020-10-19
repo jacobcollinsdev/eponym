@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
     <title>Eponym Mag</title>
 </head>
 <body>
@@ -24,5 +25,35 @@
             </div>
         </div>
     </nav>
+
+    <!-- Start Hero Carousel -->
+		<div class="container is-max-desktop">
+            <section class="hero is-medium has-carousel my-5">
+                <div id="carousel-demo" class="hero-carousel">
+                    <div class="item-1">
+                        <!-- Slide Content -->
+                        <img src="images/p1.jpg" alt="">
+                    </div>
+                    <div class="item-2">
+                        <!-- Slide Content -->
+                        <img src="images/p2.jpg" alt="">
+                    </div>
+                    <div class="item-3">
+                        <!-- Slide Content -->
+                        <img src="images/p3.jpg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="hero-head"></div> -->
+                <div class="hero-body">
+                    <h1 class="title is-size-1 has-text-white">Welcome to Eponym</h1>
+                    <a href="issues.html" class="button is-primary">Browse Issues</a>
+                </div>
+                <!-- <div class="hero-foot"></div> -->
+            </section>
+        </div>
+		<!-- End Hero Carousel -->
+
+    <script src="node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
