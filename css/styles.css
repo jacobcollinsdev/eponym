@@ -7722,3 +7722,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .editors-img {
   object-fit: cover;
   object-position: center center; }
+
+.icon:hover i {
+  color: #00d1b2; }
