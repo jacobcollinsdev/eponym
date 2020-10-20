@@ -5,15 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Eponym Mag</title>
-    <style>
-        .slider-navigation-previous{
-            margin-left:1rem;
-        }
-        .slider-navigation-next{
-            margin-right:1rem;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar has-shadow is-white container is-max-desktop">
@@ -36,19 +29,19 @@
 
     <!-- Start Hero Carousel -->
 		<div class="container is-max-desktop">
-            <section class="hero is-medium has-carousel my-5">
+            <section class="hero is-medium is-large-mobile has-carousel my-5">
                 <div id="carousel-demo" class="hero-carousel">
-                    <div class="item-1">
+                    <div class="item item-1">
                         <!-- Slide Content -->
-                        <img src="images/p1.jpg" alt="">
+                        <img class="carousel-item" src="images/p1.jpg" alt="">
                     </div>
-                    <div class="item-2">
+                    <div class="item item-2">
                         <!-- Slide Content -->
-                        <img src="images/p2.jpg" alt="">
+                        <img class="carousel-item" src="images/p2.jpg" alt="">
                     </div>
-                    <div class="item-3">
+                    <div class="item item-3">
                         <!-- Slide Content -->
-                        <img src="images/p3.jpg" alt="">
+                        <img class="carousel-item" src="images/p3.jpg" alt="">
                     </div>
                 </div>
                 <!-- <div class="hero-head"></div> -->
@@ -61,31 +54,37 @@
         </div>
         <!-- End Hero Carousel -->
         
-        <section class="section">
+        <section class="section pt-6">
             <div class="container is-max-desktop">
                 <h1 class="title has-text-centered is-size-3">Issues</h1>
-                <div class="columns">
-                    <div class="column">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/p4.jpg" alt="">
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title has-text-centered">Social Change</h3>
-                                <h4 class="subtitle has-text-centered">Issue 1</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem aperiam nobis laborum rerum corporis, iure minima deserunt quod distinctio!</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="columns mt-5">
                     <div class="column">
                         <div class="card">
                             <div class="card-image">
                                 <img src="images/p5.jpg" alt="">
                             </div>
                             <div class="card-content">
+                                <h3 class="title has-text-centered">Social Change</h3>
+                                <h4 class="subtitle has-text-centered">Issue 1</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem aperiam nobis laborum rerum corporis, iure minima deserunt quod distinctio!</p>
+                                <div class="has-text-centered">
+                                    <a href="" class="button is-danger is-dark mt-4">Download Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/p4.jpg" alt="">
+                            </div>
+                            <div class="card-content">
                                 <h3 class="title has-text-centered">Connection</h3>
                                 <h4 class="subtitle has-text-centered">Issue 2</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem aperiam nobis laborum rerum corporis, iure minima deserunt quod distinctio!</p>
+                                <div class="has-text-centered">
+                                    <a href="" class="button is-danger is-dark mt-4">Download Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -98,12 +97,52 @@
                                 <h3 class="title has-text-centered">Coming of Age</h3>
                                 <h4 class="subtitle has-text-centered">Issue 3</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem aperiam nobis laborum rerum corporis, iure minima deserunt quod distinctio!</p>
+                                <div class="has-text-centered">
+                                    <a href="" class="button is-success mt-4">Submissions</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <div class="container is-max-desktop">
+            <section class="hero is-medium is-light is-bold has-background">
+                <img class="hero-background" src="images/p8.jpg" alt="">
+                <div class="hero-body container is-max-desktop">
+                  <div class="columns">
+                    <div class="column is-half">
+                        <h1 class="title has-text-white is-size-2">
+                            Submissions for Issue 3: Coming of Age are now OPEN
+                        </h1>
+                        <a href="submissions.html" class="button is-info">Submission Guidelines</a>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="section">
+            <div class="container is-max-desktop">
+                <h2 class="title has-text-centered">Get in Touch</h2>
+                <p>You can get in touch with us via our social media channels (@eponymmag), or email us directly at <a href="mailto:eponymmag@gmail.com">eponymmag@gmail.com</a>.</p>
+                <div class="has-text-centered my-4">
+                    <span class="icon is-large">
+                        <a class="has-text-black" href="#"><i class="fab fa-twitter is-size-2"></i></a>
+                    </span>
+                    <span class="icon is-large">
+                        <a class="has-text-black" href="#"><i class="fab fa-instagram is-size-2"></i></a>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="has-background-dark py-4">
+            <div class="content has-text-centered has-text-white-ter">
+                Copyright &copy; 2020 Eponym
+            </div>
+        </footer>
 
     <script src="node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
     <script src="script.js"></script>
