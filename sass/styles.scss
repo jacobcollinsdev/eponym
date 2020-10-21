@@ -1,14 +1,11 @@
 @charset "utf-8";
-@import "../node_modules/bulma/bulma.sass";
-
-@import "../node_modules/sass/utilities/initial-variables";
-@import "../node_modules/sass/utilities/functions";
-
-// @import "../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;800&display=swap');
-
 $family-serif: "Abhaya Libre", serif;
 $family-primary: $family-serif;
+
+@import "../node_modules/bulma/bulma.sass";
+// @import "../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css";
+
 
 
 .hero.has-background {
