@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/bulma-carousel/dist/css/bulma-carousel.min.css">
+    <!-- BULMA -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- BULMA CAROUSEL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+    <!-- ABHAYA LIBRE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- CUSTOME CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <title>Home | Eponym Mag</title>
 </head>
 <body>
     <nav class="navbar has-shadow is-white container is-max-desktop">
         <div class="navbar-brand">
-            <a href="/" class="navbar-item is-size-3 has-text-black">Eponym</a>
+            <a href="/" class="navbar-item is-size-3 has-text-black has-text-weight-bold">Eponym</a>
             <a href="#" class="navbar-burger" id="burger">
                 <span></span>
                 <span></span>
@@ -62,8 +69,8 @@
                     </div>
                 </div>
                 <div class="hero-head"></div>
-                <div class="hero-body">
-                    <h1 class="title has-text-white">Welcome to Eponym</h1>
+                <div class="hero-body has-text-centered-mobile">
+                    <h1 class="title has-text-white is-size-1 is-size-3-mobile">Welcome to Eponym</h1>
                     <a href="issues.html" class="button is-small-mobile is-primary">Browse Issues</a>
                 </div>
                 <div class="hero-foot"></div>
@@ -124,23 +131,22 @@
             </div>
         </section>
 
-        <div class="container is-max-desktop mb-6">
-            <section class="hero is-medium is-light is-bold has-background">
-                <img class="hero-background" src="assets/images/p8.jpg" alt="">
-                <div class="hero-body container is-max-desktop">
-                  <div class="columns">
-                    <div class="column is-half">
-                        <h1 class="title has-text-white is-size-2">
-                            Submissions for Issue 3: Coming of Age are now OPEN
-                        </h1>
-                        <a href="submissions.html" class="button is-info">Submission Guidelines</a>
-                    </div>
-                  </div>
+        <section class="section">
+            <div class="hero is-medium hero-sub container is-max-desktop">
+                <div class="hero-body">
+                        <div class="columns">
+                            <div class="column is-half mx-6 has-text-centered-mobile">
+                                <h1 class="title has-text-white is-size-2 is-size-4-mobile">
+                                    Submissions for Issue 3: Coming of Age are now OPEN
+                                </h1>
+                                <a href="submissions.html" class="button is-info">Submission Guidelines</a>
+                            </div>
+                        </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        <section class="section has-background-light">
+        <section class="section has-background-light mt-5">
             <div class="container is-max-desktop">
                 <h2 class="title has-text-centered">Get in Touch</h2>
                 <p>You can get in touch with us via our social media channels (@eponymmag), or email us directly at <a href="mailto:eponymmag@gmail.com">eponymmag@gmail.com</a>.</p>
@@ -161,7 +167,8 @@
             </div>
         </footer>
 
-    <script src="assets/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+    <!-- BULMA CAROUSEL CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
     <script src="assets/scripts/carousel.js"></script>
     <script src="assets/scripts/script.js"></script>
 </body>
