@@ -37,3 +37,7 @@ nav, h1,h2,h3,h4, .title, .subtitle {
     background-size: cover;
     position: relative;
  }
+
+ .column{
+     display: flex;
+ }
