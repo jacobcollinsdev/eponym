@@ -38,6 +38,15 @@ nav, h1,h2,h3,h4, .title, .subtitle {
     position: relative;
  }
 
+ .hero-issues {
+    background-image: url('../images/p2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+ /* To make cards equal height, use this
  .column{
      display: flex;
- }
+ } */
